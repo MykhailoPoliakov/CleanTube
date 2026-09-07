@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "YT no-slop",
+  "name": "CleanTube",
   "version": "1.0",
   "description": "Removes ads, Shorts, and homepage clutter from YouTube.",
   "icons": {
