@@ -1,0 +1,10 @@
+ytd-display-ad-renderer,
+ytd-promoted-sparkles-web-renderer,
+ytd-promoted-video-renderer,
+ytd-ad-slot-renderer {
+  display: none !important;
+}
+
+ytd-guide-entry-renderer:has(yt-formatted-string.title:contains("Shorts")) {
+  display: none !important;
+}
