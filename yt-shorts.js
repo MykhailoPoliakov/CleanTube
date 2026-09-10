@@ -18,5 +18,15 @@ function removeShortsShelf() {
 }
 
 
+function removeShortsFeedItems() {
+  document.querySelectorAll('ytd-rich-item-renderer a[href*="/shorts/"]').forEach(link => {
+    const wrapper = link.closest('ytd-rich-item-renderer');
+    if (wrapper) {
+      wrapper.remove();
+    }
+  });
+}
+
+
 
 
